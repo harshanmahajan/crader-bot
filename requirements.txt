@@ -1,0 +1,8 @@
+alpaca_trade_api==3.2.0
+beautifulsoup4==4.12.3
+lumibot==2.9.13
+pandas==2.0.0
+Requests==2.32.3
+timedelta==2020.12.3
+torch==2.5.1
+transformers==4.47.0
