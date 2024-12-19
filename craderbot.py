@@ -115,7 +115,7 @@ class Crader(Strategy):
         self.prevDay = today - Timedelta(days=3) if today.weekday() == 0 else today - Timedelta(days=1) 
         
         #collect symbols for a the previous day in string format
-        buys, sells = self.get_symbols_backtesting(self.prevDay.strftime('%Y-%m-%d'))
+        buys, sells = self.get_symbols(self.prevDay.strftime('%Y-%m-%d'))
         
         #get all currently held positions
         held = {}
