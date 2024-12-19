@@ -32,7 +32,10 @@ Crader is an automated stock trading bot that bases its decisions on Jim Cramer'
    To backtest using the data in cramerpicks.csv:
    - Make sure to specify get_symbols_backtesting() rather than get_symbols() in the on_trading_iteration() definition
    - Select the start_date and end_date variables in craderbot.py accordingly. 
-   
+
+## Sources
+
+I used [this tutorial](https://www.youtube.com/watch?v=c9OjEThuJjY) by Nicholas Renotte to get started developing this bot, and used his implementation of sentiment analysis in news_processing.py
 
 ## Disclaimer
 
